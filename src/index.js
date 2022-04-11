@@ -2,6 +2,8 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
+import Header from './components/Header';
+
 
 import Footer from './app2';
  
@@ -11,7 +13,9 @@ import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
+    <Header />
     <App />
+    {/* <Beers list={data.cards} */}
   </React.StrictMode>,
   document.getElementById('root')
 );
